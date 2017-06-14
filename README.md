@@ -4,7 +4,7 @@
 Monitoring of a GPU system sending either Slack or Mattermost messages via webhooks
 
 ## Requirements
-* NVidia GPU since it is using nvidia-smi to monitor the GPU jobs.
+* NVidia® GPU since it is using nvidia-smi to monitor the GPU jobs.
 * Linux.
 * Python 2 (port to Python 3 should be straightforward).
 
@@ -20,3 +20,13 @@ If you would like, you can also install the gpumonitor as an init.d service
 1. Start the init service via `/etc/init.d/gpumonitor start`
 1. As usual you can monitor the service status via `/etc/init.d/gpumonitor status`
 
+## Options for configuration
+* mattermostIncomingWebhook: Web address of incoming Slack or Mattermost webhook
+* nvidiaLogoLink: Logo used for the bot in Mattermost
+
+## Legal notice
+* This is a private project.
+* I am not in any way affiliated with Mattermost, NVidia or Slack.
+* NVIDIA, the NVIDIA logo, and all other trademarks mentioned in this document  are trademarks and/or registered trademarks of NVIDIA Corporation
+in the U.S. and other countries. Other company and product names may be trademarks
+of the respective companies with which they are associated.
