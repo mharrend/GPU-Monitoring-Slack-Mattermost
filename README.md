@@ -24,6 +24,14 @@ If you would like, you can also install the gpumonitor as an init.d service
 * mattermostIncomingWebhook: Web address of incoming Slack or Mattermost webhook
 * nvidiaLogoLink: Logo used for the bot in Mattermost
 
+
+## Screenshot
+Screenshot taken from Mattermost group contains
+* Message after a new job was started.
+* Status message since a new job was created.
+* Message after job has finished.
+![Screenshot showing output in Mattermost group](gpu-monitoring-edited.png?raw=true "Screenshot taken from Mattermost")
+
 ## Legal notice
 * This is a private project.
 * I am not in any way affiliated with Mattermost, NVidia or Slack.
