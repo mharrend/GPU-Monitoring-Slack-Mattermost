@@ -4,9 +4,9 @@
 Monitoring of a GPU system sending either Slack or Mattermost messages via webhooks
 
 ## Requirements
-* NVidia GPU
-* Linux
-* Python 2 (port to Python 3 should be straightforward)
+* NVidia GPU since it is using nvidia-smi to monitor the GPU jobs.
+* Linux.
+* Python 2 (port to Python 3 should be straightforward).
 
 ## Usage
 1. Create an incoming webhook in Slack or Mattermost and save the web adress of the web hook.
