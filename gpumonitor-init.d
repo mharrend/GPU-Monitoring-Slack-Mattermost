@@ -1,5 +1,16 @@
 #!/bin/sh
 
+### BEGIN INIT INFO
+# Provides:          gpumonitor
+# Required-Start:    $local_fs $syslog
+# Required-Stop:     $local_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Script for gpumonitoring
+# Description:       Script will monitor gpu and post messages in Mattermost / Slack channels
+### END INIT INFO
+
+
 DAEMON_PATH="/usr/local/bin"
 
 DAEMON=gpumonitor
