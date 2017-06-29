@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 DAEMON_PATH="/usr/local/bin"
 
