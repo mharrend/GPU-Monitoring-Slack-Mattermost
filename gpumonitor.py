@@ -47,7 +47,7 @@ while (True):
         username = pwd.getpwuid(uid)[0]
         
 	# Create string
-        messageString = "### New GPU Job\n User **" +  username + "** has created a job named **" + processName + "** on GPU with pid **" + pid + "** consuming **" + processMemory + "** memory."
+        messageString = "### New GPU Job\n User **@" +  username + "** has created a job named **" + processName + "** on GPU with pid **" + pid + "** consuming **" + processMemory + "** memory."
         print messageString
 
         messageData={'text': messageString, 'icon_url': nvidiaLogoLink}
